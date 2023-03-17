@@ -2,11 +2,14 @@ airflow/logs/*
 !airflow/logs/.gitkeep
 airflow/plugins/*
 !airflow/plugins/.gitkeep
+!airflow/config/.gitkeep
 airflow/dags/_dag*
 __pycache__
 postgresql/data/*
+!postgresql/data/.gitkeep
 node_modules
 venv
 .env
+configurations.json
 bin/
 app

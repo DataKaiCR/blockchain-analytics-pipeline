@@ -39,7 +39,7 @@ cd data-pipeline
 docker-compose build && docker compose airflow-init && docker compose up -d
 ```
     
-    This will first build all the required images for the project. Then it will migrate the postgre database for the airflow services. Finally it will start all the services specified in the `docker-compose.yml` file and run them in detached mode.
+This will first build all the required images for the project. Then it will migrate the postgre database for the airflow services. Finally it will start all the services specified in the `docker-compose.yml` file and run them in detached mode.
     
 5.  Access the Airflow web interface by visiting the following URL:
     
