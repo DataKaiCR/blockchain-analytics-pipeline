@@ -1,0 +1,5 @@
+FROM postgres:13
+ENV POSTGRES_USER=airflow
+ENV POSTGRES_PASSWORD=airflow
+# ENV POSTGRES_DB=blockchain
+ENV POSTGRES_DB=airflow
