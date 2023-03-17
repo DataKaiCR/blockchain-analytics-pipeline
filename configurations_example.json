@@ -1,0 +1,27 @@
+{
+    "postgres_airflow": {
+        "conn_type": "postgres",
+        "login": "airflow",
+        "password": "airflow",
+        "host": "postgres",
+        "port": 5432,
+        "schema": "airflow"
+    },
+    "postgres_blockchain": {
+        "conn_type": "postgres",
+        "login": "airflow",
+        "password": "airflow",
+        "host": "postgres",
+        "port": 5432,
+        "schema": "airflow"
+    },
+    "aws_s3": {
+        "conn_type": "aws",
+        "login": "",
+        "password": "",
+        "extra": {
+            "region_name": "us-east-2"
+        }
+    }
+
+}
