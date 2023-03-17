@@ -1,0 +1,7 @@
+# psycopg2
+pandas
+numpy
+# psycopg2
+# psycopg2==2.9.5
+# SQLAlchemy==2.0.6
+python-dotenv
