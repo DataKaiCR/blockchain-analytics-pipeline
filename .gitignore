@@ -1,0 +1,12 @@
+airflow/logs/*
+!airflow/logs/.gitkeep
+airflow/plugins/*
+!airflow/plugins/.gitkeep
+airflow/dags/_dag*
+__pycache__
+postgresql/data/*
+node_modules
+venv
+.env
+bin/
+app

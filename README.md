@@ -13,6 +13,7 @@ To use this project, you will need:
 -   Access to multiple data sources that you want to stream data from.
 -   An Amazon S3 bucket to upload the data to. If you don't have an account you can get a free tier [here](https://aws.amazon.com/free).
 -   An understanding of PostgreSQL and how to configure a database.
+-   An API Key for [Covalent](https://www.covalenthq.com/)
 
 ## Installation
 
