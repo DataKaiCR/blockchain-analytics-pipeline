@@ -1,0 +1,1 @@
+CREATE DATABASE blockchain WITH OWNER = admin;
